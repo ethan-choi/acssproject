@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css';
-import { Nav, Navbar, Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container, Image } from "react-bootstrap";
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
 import discord from './img/discord.png';

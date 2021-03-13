@@ -1,11 +1,10 @@
 import './galleryPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/animate.css/animate.css'
-import { Nav, Image, Tab, Tabs, Carousel, Sonnet, Navbar, Row, Col, Container, Card, Button } from "react-bootstrap";
+import { Row, Col, Container, Card } from "react-bootstrap";
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js"
 import { Link } from "react-router-dom";
-import lunar4 from "./img/lunarMarkets/lunar4.jpg";
 function galleryPage() {
 
 

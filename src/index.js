@@ -9,7 +9,7 @@ import About from "./About.js"
 import galleryPage from "./galleryPage.js"
 import odayGallery from "./eventGalleries/odayGallery.js"
 import lunarGallery from "./eventGalleries/lunarGallery.js"
-
+import Events from "./Events.js";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -20,6 +20,7 @@ ReactDOM.render(
       <Route exact path="/team" component={Team} />
       <Route exact path="/join" component={Join} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/events" component={Events} />
       <Route exact path="/gallery" component={galleryPage} />
       <Route exact path="/odayGallery" component={odayGallery} />
       <Route exact path="/lunarGallery" component={lunarGallery} />

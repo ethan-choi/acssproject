@@ -18,7 +18,7 @@ function Navigation() {
                         <Nav.Link href="/home" ><button class="hvr-underline-from-center"> <Link to="/home"> Home </Link></button> </Nav.Link>
                         <Nav.Link href="/about"><button class="hvr-underline-from-center"> <Link to="/about"> About </Link> </button></Nav.Link>
                         <Nav.Link href="/team" ><button class="hvr-underline-from-center"> <Link to="/team"> Team </Link> </button></Nav.Link>
-                        <Nav.Link href="#events"><button class="hvr-underline-from-center"> <Link to="/events"> Events  </Link> </button></Nav.Link>
+                        <Nav.Link href="/events"><button class="hvr-underline-from-center"> <Link to="/events"> Events  </Link> </button></Nav.Link>
                         <Nav.Link href="/gallery"><button class="hvr-underline-from-center"> <Link to="/gallery"> Gallery  </Link> </button></Nav.Link>
                         <Nav.Link href="/join"><button class="hvr-underline-from-center"> <Link to="/join"> Join Us </Link> </button></Nav.Link>
                     </Nav>

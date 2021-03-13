@@ -1,0 +1,39 @@
+Todo list
+
+Header
+- add text to logo
+- current page indicator 
+
+Home
+- fix background image + make title more visible
+- add actual content to announcements
+- slideshow of 5 highlight photos
+
+About
+- add actual content, images + icon
+
+Team
+- find team group image
+- get team portraits
+- team subtitle/intro
+- team social medias (?)
+- zoom in on team portraits on hover
+
+Events page
+- make the whole thing
+
+Gallery
+- fix image proportions
+- decide on gallery style
+
+Join
+- fix pricing styling
+
+footer
+- add white acss logo
+- edit email address when we get one
+
+future
+- sponroships page
+- merch store link
+- add a video somewhere

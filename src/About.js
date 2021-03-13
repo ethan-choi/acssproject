@@ -1,10 +1,8 @@
 import './About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Image, Tab, Tabs, Sonnet, Navbar, Row, Col, Container, Card, Button } from "react-bootstrap";
+import { Image, Row, Col, Container } from "react-bootstrap";
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js"
-import welcome from './img/welcome.jpg';
-import image from './img/avatar.png';
 import icon1 from './img/makefriends.png';
 import icon2 from './img/muchmore.png';
 import icon3 from './img/cuisine.png';
