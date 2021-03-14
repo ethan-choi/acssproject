@@ -30,14 +30,14 @@
   }
 
 .galleryContainer{
-  margin-bottom: 10vh;
+  margin: 10vh 0vh 10vh 0vh;
 }
 .galleryCard
 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10vh;  border: none;
+  margin-bottom: 4vh;  border: none;
 }
 
 .galleryCard h2{
@@ -51,12 +51,9 @@
   height: 50vh;
 }
 
-.galleryRow{
-  margin-bottom: 2vh;
-}
 
 .galleryCol{
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 .galleryRow p{

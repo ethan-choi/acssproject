@@ -8,6 +8,7 @@
   background-color: #dd3438;
   height: 27vh;
   font-size: 7vh;
+  padding-bottom: 40vh;
 }
 
 .teamHeader h1{
@@ -20,7 +21,7 @@
 
 
 .teamGroupContainer{
-  margin-bottom: 10vh;
+  margin: 10vh;
   background-color: white;
 }
 
