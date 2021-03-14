@@ -36,7 +36,7 @@ function Join() {
                             <Card body className="joinCard"><h2>
                                 <Badge pill variant="primary"> 1 </Badge>{' '}
                             Let's Start </h2>
-                                <p> Click the "Let's Start" button below. It will take you to activateuts.com.au where you become an ACSS member online. </p></Card>
+                                <p> Click the "Let's Start" button below. It will take you to activateuts where you become an ACSS member online. </p></Card>
                         </Col>
 
                         <Col lg={{ span: 2, offset: 0 }}>
@@ -74,6 +74,7 @@ function Join() {
             <div class="priceContainer">
 
                 <Container fluid={true}>
+
                     <Row>
                         <Col>
                             <h3 class="subtitle"> Annual Pricing </h3>

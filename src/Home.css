@@ -28,11 +28,12 @@
 
 
 .coverContainer h3 {
-  margin: 20vh 0vh 5vh 0vh;
+  margin: 20vh 0vh 3vh 0vh;
   font-size: 6vh;
   text-align: center;
   color: #dd3438; 
   font-weight: bold;
+  text-shadow: 2px 2px 10px black;
 }
 
 .coverContainer p {
@@ -40,7 +41,7 @@
   color: #f2eddb;;  
   text-align: center;
   font-weight: none;
-  margin: 0vh 0vh 4vh 0vh;
+  margin: 0vh 0vh 2vh 0vh;
 }
 
 .coverContainer button{

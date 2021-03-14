@@ -80,7 +80,7 @@ padding:0;
 
 .readyContainer{
   background-color: #ffa800;
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
 }
 
 
@@ -89,7 +89,6 @@ padding:0;
   text-align: center;
   color: white; 
   font-weight: bold;
-
 }
 
 .readyContainer button{
