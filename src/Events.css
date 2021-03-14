@@ -1,0 +1,68 @@
+.eventsContainer{
+}
+.teamHeader{
+    
+}
+.eventsText{
+    background-color: red;
+}
+
+.eventsImage{
+    background-color: blue;
+}
+
+.eventCard{
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+}
+
+.eventSubtext{
+    color: grey;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-style: none;
+}
+
+.thumbnailoday{
+    height: 30vh;
+    background-image: url("img/oday/oday1.JPG"); 
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+ 
+.eventCard button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #dd3438;
+    border-radius: 25px;
+    border: none;
+    padding: 1vh;
+    color: white;
+    font-size: 2.5vh;
+    width: 30vh;
+  }
+  
+  .eventCard button:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color:white ;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 1vh;
+    font-size: 2.5vh;
+    width: 30vh;
+  }

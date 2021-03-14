@@ -37,7 +37,6 @@ function galleryPage() {
                             <Link to="/odayGallery">
                                 <Card style={{ width: '60vh' }} className="galleryCard">
                                     <div class="thumbnailoday">
-
                                     </div>
                                     <Card.Body>
                                         <h2> O'day Clubs Expo </h2>
