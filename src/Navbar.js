@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
-import { Nav, Image, Navbar } from "react-bootstrap";
+import { Nav, Image, Navbar, Button} from "react-bootstrap";
 import logo from './img/logo.png';
 import logotext from './img/logotext.png';
 import { Link } from "react-router-dom";
@@ -16,12 +16,12 @@ function Navigation() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto" >
-                        <Nav.Link href="/home" ><button class="hvr-underline-from-center"> <Link to="/home"> Home </Link></button> </Nav.Link>
-                        <Nav.Link href="/about"><button class="hvr-underline-from-center"> <Link to="/about"> About </Link> </button></Nav.Link>
-                        <Nav.Link href="/team" ><button class="hvr-underline-from-center"> <Link to="/team"> Team </Link> </button></Nav.Link>
-                        <Nav.Link href="/events"><button class="hvr-underline-from-center"> <Link to="/events"> Events  </Link> </button></Nav.Link>
-                        <Nav.Link href="/gallery"><button class="hvr-underline-from-center"> <Link to="/gallery"> Gallery  </Link> </button></Nav.Link>
-                        <Nav.Link href="/join"><button class="hvr-underline-from-center"> <Link to="/join"> Join Us </Link> </button></Nav.Link>
+                        <Nav.Link href="/home" ><Button className="hvr-underline-from-center navbarButton"> <Link to="/home"> Home </Link></Button> </Nav.Link>
+                        <Nav.Link href="/about"><Button className="hvr-underline-from-center navbarButton"> <Link to="/about"> About </Link> </Button></Nav.Link>
+                        <Nav.Link href="/team" ><Button className="hvr-underline-from-center navbarButton"> <Link to="/team"> Team </Link> </Button></Nav.Link>
+                        <Nav.Link href="/events"><Button className="hvr-underline-from-center navbarButton"> <Link to="/events"> Events  </Link> </Button></Nav.Link>
+                        <Nav.Link href="/gallery"><Button className="hvr-underline-from-center navbarButton"> <Link to="/gallery"> Gallery  </Link> </Button></Nav.Link>
+                        <Nav.Link href="/join"><Button className="navbarButtonJoin" variant="danger"> <Link to="/join"> Join Us </Link> </Button></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

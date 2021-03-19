@@ -25,6 +25,11 @@
 .joinContainer{
   margin-bottom: 10vh;
 }
+
+.pageSubtitle{
+  font-size: 3.5vh;
+  text-align: center;
+}
 .joinContainer h3{
   font-size: 5vh;
   margin: 10vh 0vh 3vh 0vh;
@@ -107,6 +112,7 @@
 .priceContainer{
   background-color: white;
   padding-bottom: 15vh;
+  padding-top: 10vh;
 }
 .priceCard {
   background-color: #ffa800;
@@ -124,6 +130,7 @@
   margin-left: auto;
   margin-right: auto;
   width: auto;
+
   margin-bottom: 2vh;
 }
 

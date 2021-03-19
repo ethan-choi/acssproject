@@ -16,7 +16,7 @@ function Team() {
         <Container fluid={true}>
           <Row>
             <Col lg={{ span: 12 }}>
-              <h1 class="animate__animated animate__fadeInDown"> Our 2021 Team</h1>
+              <h1 class="animate__animated animate__fadeInDown"> The ACSS Team</h1>
             </Col>
           </Row>
         </Container>
@@ -33,7 +33,7 @@ function Team() {
           </Row>
           <Row>
             <Col lg={{span: 6, offset: 3}}>
-           <p> Each member of our tight knit team helps manage a part of ACSS and works together to bring the society to life</p> 
+           <p> Our team works together to bring the society to life. </p> 
             </Col>
           </Row>
         </Container>

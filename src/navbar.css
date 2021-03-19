@@ -1,6 +1,6 @@
 
 .navbar{
-  font-size: 1.8vh;
+  font-size: vh;
   font-family: 'Poppins', sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -15,7 +15,21 @@ a:hover{
 }
 
 
-button{
+.navbarButtonJoin{
+  margin: 1vh 0vh 1vh 0vh;
+  padding: 1vh;
+  color: white;
+}
+
+.navbarButton{
+  margin: 1vh 0vh 1vh 0vh;
+  padding: 1vh;
+  border: none;
+  background-color: #fafafa;
+}
+
+.navbarButton:hover{
+  padding: 1vh;
   border: none;
   background-color: #fafafa;
 }
@@ -26,11 +40,11 @@ button{
 
 
 .logo{
-  height: 5vh;
+  height: 8vh;
 }
 
 
-{/* Underline animations */}
+/* Underline animations */
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;

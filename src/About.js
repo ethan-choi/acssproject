@@ -22,7 +22,7 @@ function About() {
         <Container fluid={true}>
           <Row>
             <Col lg={{ span: 12 }}>
-              <h1 class="animate__animated animate__fadeInDown"> About </h1>
+              <h1 class="animate__animated animate__fadeInDown"> About the ACSS </h1>
             </Col>
           </Row>
         </Container>
@@ -95,7 +95,7 @@ function About() {
                   <p> Love food? We'll take you to some of the best places to eat and drink! </p>
                 </div>
               </Col>
-              <Col lg={{ span: 4 }}>
+              <Col lg={{ span: 4 }}> 
                 <div class="">
                   <Image className="benefitsImage" src={oday7} fluid />
                 </div>
@@ -126,7 +126,7 @@ function About() {
       <div class="readyContainer">
       <Row>
         <Col>
-          <h1 class="readyText">Ready to Join?</h1>
+          <h1 class="readyText">Ready to join?</h1>
         </Col>
        </Row>
         <Container fluid={true}>

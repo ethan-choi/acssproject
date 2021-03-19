@@ -20,7 +20,7 @@ function Events() {
                 <Container fluid={true} className="teamHeader">
                     <Row>
                         <Col lg={{ span: 8, offset: 2 }}>
-                            <h1 class="animate__animated animate__fadeInDown"> Events </h1>
+                            <h1 class="animate__animated animate__fadeInDown"> Our Events </h1>
                         </Col>
                     </Row>
                 </Container>
@@ -30,7 +30,8 @@ function Events() {
 
 <div class="eventsContainer">
 
-    <h1> Upcoming Events </h1>
+    <h1> Come say hi </h1>
+    <p class="pageSubtitle"> All are welcome to join in on the fun.</p>
     <Container fluid={true}>
         <Row>
             <Col lg={{span: 3, offset: 3}}>
