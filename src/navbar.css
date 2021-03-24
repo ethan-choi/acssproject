@@ -1,4 +1,11 @@
-
+.navbarButtonJoin{
+  margin: 1vh 0vh 1vh 0vh;
+  padding: 1vh;
+  color: white !important;
+  border: none;
+  font-size: 1.7vh;
+  border-radius: 15px;
+}
 .navbar{
   font-size: 3vh;
   font-family: 'Poppins', sans-serif;
@@ -15,13 +22,7 @@ a:hover{
 }
 
 
-.navbarButtonJoin{
-  margin: 1vh 0vh 1vh 0vh;
-  padding: 1vh;
-  color: white;
-  border: none;
-  font-size: 1.7vh;
-}
+
 
 .navbarButton{
   margin: 1vh 0vh 1vh 0vh;
@@ -29,6 +30,7 @@ a:hover{
   border: none;
   font-size: 1.7vh;
   background-color: #fafafa;
+  color: black;
 }
 
 .navbarButton:hover{
