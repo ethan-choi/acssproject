@@ -10,3 +10,20 @@ h1{
     color: #ffa800; 
     font-weight: bold;
 }
+
+
+.galleryRow button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    width: 50%;
+    background-color:#dd3438;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 1vh;
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    width: 30vh;
+}

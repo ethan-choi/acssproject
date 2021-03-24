@@ -53,8 +53,8 @@ function lunarGallery() {
                 </Row>
 
                 <Row className="galleryRow">
-                    <Col lg={{ span: 4, offset: 4 }} className="galleryCol">
-                        <p> See all the photos at [url]</p>
+                    <Col lg={{ span: 2, offset: 5 }} className="galleryCol">
+                        <a href="https://drive.google.com/drive/folders/1HxryM-vYv5a1PsD2qm8knzizAJqRH3wU" target="_blank" s> <button class="hvr-grow"> View all photos </button> </a>
                     </Col>
                 </Row>
             </Container>

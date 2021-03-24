@@ -9,6 +9,7 @@ import About from "./About.js"
 import galleryPage from "./galleryPage.js"
 import odayGallery from "./eventGalleries/odayGallery.js"
 import lunarGallery from "./eventGalleries/lunarGallery.js"
+import welcomeGallery from "./eventGalleries/welcomeGallery.js"
 import Events from "./Events.js";
 
 const rootElement = document.getElementById("root");
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route exact path="/gallery" component={galleryPage} />
       <Route exact path="/odayGallery" component={odayGallery} />
       <Route exact path="/lunarGallery" component={lunarGallery} />
+      <Route exact path="/welcomeGallery" component={welcomeGallery} />
 
     </Switch>
   </BrowserRouter>,

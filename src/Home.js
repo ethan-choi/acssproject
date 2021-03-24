@@ -45,7 +45,7 @@ function Home() {
 
             {/* Announcements */}
             <div class="announcementsContainer">
-                <h1> Announcements </h1>
+                <h1> Latest News </h1>
                 <Container fluid={true} className="announcements">
                     <Row>
                         <Col lg={{ span: 6 }, { offset: 3 }}>

@@ -32,7 +32,7 @@ function galleryPage() {
                 <Container fluid={true} className="galleryContainer">
                     <Row>
                         <Col>
-                        <h1> Check out pics from our past events </h1>
+                            <h1> Check out pics from our past events </h1>
                         </Col>
                     </Row>
                     <Row >
@@ -62,7 +62,7 @@ function galleryPage() {
                     </Row>
                     <Row >
                         <Col lg={{ span: 4, offset: 2 }} >
-                            <Link to="/thumbnailwelcome">
+                            <Link to="/welcomeGallery">
                                 <Card style={{ width: '60vh' }} className="galleryCard">
                                     <div class="thumbnailwelcome">
 
