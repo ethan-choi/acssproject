@@ -29,7 +29,7 @@ function Join() {
 
             {/* Join Steps */}
             <div class="joinContainer">
-                <h3> Be apart of our family in four easy steps</h3>
+                <h3> Join our family in four easy steps</h3>
                 <Container fluid={true}>
                     <Row>
                         <Col lg={{ span: 2, offset: 2 }}>
@@ -99,7 +99,7 @@ function Join() {
             </div>
 
             {/* Footer */}
-            
+
             <Footer></Footer>
         </div >
     );

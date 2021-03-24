@@ -6,6 +6,7 @@ import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
 import discord from './img/discord.png';
 import logo from './img/activate-logo.png';
+import logowhite from './img/logowhite.png';
 
 
 function Footer() {
@@ -14,6 +15,11 @@ function Footer() {
 
             <div class="footerContainer">
                 <Container fluid={true} className="footer">
+                    <Row>
+                        <Col lg={{ span: 12, offset: 0 }} >
+                            <Image className="logowhite" src={logowhite} fluid />
+                        </Col>
+                    </Row>
                     <Row>
                         <Col lg={{ span: 12, offset: 0 }} >
                             <a href="https://www.facebook.com/uts.acss" target="_blank">  <Image className="socialmedia hvr-grow" src={facebook} rounded /> </a>

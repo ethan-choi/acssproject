@@ -3,7 +3,11 @@
   font-family: 'Poppins', sans-serif;}
 
 
-
+.introContainer{
+  background-color: white;
+  padding: 5vh;
+  border-radius: 5px;
+}
 
   .introContainer-col{
     font-size: 1vh;
@@ -14,10 +18,27 @@
     height: auto;
     margin-bottom: 2vh;
   }
+
+
+  .introContainer-row{
+    background-color: red;
+  }
   
 
   .introContainer p{
     font-size: 2vh;
+  }
+
+  .introContainer img{
+    height: 20vh;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .flag{
+    height: 100vh;
   }
 
 /* Benefits */
