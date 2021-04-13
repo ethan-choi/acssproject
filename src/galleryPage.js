@@ -81,6 +81,18 @@ function galleryPage() {
                                 </Card>
                             </Link>
                         </Col>
+                        <Col lg={{ span: 4, offset: 0 }} >
+                            <Link to="/bbqGallery">
+                                <Card style={{ width: '60vh' }} className="galleryCard">
+                                    <div class="thumbnaillunar">
+
+                                    </div>
+                                    <Card.Body>
+                                        <h2> Chinese BBQ Night </h2>
+                                    </Card.Body>
+                                </Card>
+                            </Link>
+                        </Col>
                     </Row>
                 </Container>
             </div>
