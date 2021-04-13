@@ -1,4 +1,5 @@
 import './gallery.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/animate.css/animate.css'
 import { Nav, Image, Tab, Tabs, Carousel, Sonnet, Navbar, Row, Col, Container, Card, Button } from "react-bootstrap";
@@ -18,6 +19,11 @@ function odayGallery() {
 
     return (
         <div class="gallery">
+
+            <Helmet>
+                <title> Gallery | O'Day 2021 </title>
+            </Helmet>
+
             {/* Navigation */}
             <Navigation> </Navigation>
 

@@ -1,4 +1,5 @@
 import './gallery.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/animate.css/animate.css'
 import { Nav, Image, Tab, Tabs, Carousel, Sonnet, Navbar, Row, Col, Container, Card, Button } from "react-bootstrap";
@@ -19,6 +20,10 @@ function welcomeGallery() {
 
     return (
         <div class="gallery">
+
+            <Helmet>
+                <title> Gallery | Welcome Picnic </title>
+            </Helmet>
             <Navigation> </Navigation>
             {/* Header */}
 

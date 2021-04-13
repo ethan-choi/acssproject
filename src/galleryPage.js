@@ -1,4 +1,5 @@
 import './galleryPage.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/animate.css/animate.css'
 import { Row, Col, Container, Card } from "react-bootstrap";
@@ -10,6 +11,13 @@ function galleryPage() {
 
     return (
         <div className="galleryPage">
+
+
+
+            <Helmet>
+                <title> Gallery </title>
+            </Helmet>
+
 
             {/* Navigation */}
             <Navigation> </Navigation>

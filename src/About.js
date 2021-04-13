@@ -1,4 +1,5 @@
 import './About.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image, Row, Col, Container } from "react-bootstrap";
 import Navigation from "./Navbar.js";
@@ -12,10 +13,19 @@ import oday1 from "./img/oday/oday1.JPG";
 import auflag from "./img/auflag.png";
 import chflag from "./img/chflag.png";
 
+import makefriendsimage from "./img/makefriendsimage.jpg";
+import cuisineimage from "./img/cuisineimage.JPG";
+import funnightsimage from "./img/funnightsimage.JPG";
+import mandarinimage from "./img/mandarinimage.jpg";
+
 function About() {
   return (
     <div className="about">
-      {/* This is a test */}
+      <Helmet>
+        <title> About Us </title>
+      </Helmet>
+
+    
       {/* Navigation bar */}
       <Navigation> </Navigation>
 
@@ -68,7 +78,7 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
               </Col>
               <Col lg={{ span: 4 }}>
                 <div class="">
-                  <Image className="benefitsImage" src={oday7} fluid />
+                  <Image className="benefitsImage" src={makefriendsimage} fluid />
                 </div>
               </Col>
             </Row>
@@ -79,7 +89,7 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
           <Row className="benefitsContainer-row">
             <Col lg={{ span: 4, offset: 2, order: 1 }} xs={{ span: 12, order: 12 }}>
               <div class="">
-                <Image className="benefitsImage" src={oday1} fluid />
+                <Image className="benefitsImage" src={mandarinimage} fluid />
               </div>
             </Col>
             <Col lg={{ span: 4, offset: 0, order: 12 }} xs={{ span: 12, order: 1 }}>
@@ -104,7 +114,7 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
               </Col>
               <Col lg={{ span: 4 }}>
                 <div class="">
-                  <Image className="benefitsImage" src={oday7} fluid />
+                  <Image className="benefitsImage" src={cuisineimage} fluid />
                 </div>
               </Col>
             </Row>
@@ -113,7 +123,7 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
           <Row className="benefitsContainer-row">
             <Col lg={{ span: 4, offset: 2, order: 1 }} xs={{ span: 12, order: 12 }}>
               <div class="">
-                <Image className="benefitsImage" src={oday7} fluid />
+                <Image className="benefitsImage" src={funnightsimage} fluid />
               </div>
             </Col>
             <Col lg={{ span: 4, offset: 0, order: 12 }} xs={{ span: 12, order: 1 }}>

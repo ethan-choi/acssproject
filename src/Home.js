@@ -1,4 +1,5 @@
 import './Home.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/animate.css/animate.css'
 import { Image, Tab, Tabs, Row, Col, Container, Card } from "react-bootstrap";
@@ -15,6 +16,10 @@ import logo from "./img/logo.png";
 function Home() {
     return (
         <div className="home">
+            <Helmet>
+                <title> Home </title>
+            </Helmet>
+
             {/* Navigation bar */}
             <Navigation> </Navigation>
 

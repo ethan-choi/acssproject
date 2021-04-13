@@ -1,4 +1,5 @@
 import './Join.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image, Badge, Row, Col, Container, Card } from "react-bootstrap";
 import Navigation from "./Navbar.js";
@@ -10,6 +11,10 @@ function Join() {
     return (
 
         <div className="join">
+            <Helmet>
+                <title> Join </title>
+            </Helmet>
+
 
             {/* Navigation Bar */}
             <Navigation> </Navigation>

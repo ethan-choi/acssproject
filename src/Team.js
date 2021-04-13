@@ -1,4 +1,5 @@
 import './Team.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Container, Card, Image } from "react-bootstrap";
 import Navigation from "./Navbar.js";
@@ -8,6 +9,10 @@ import teamGroup from './img/teamgroup.JPG';
 function Team() {
   return (
     <div className="team">
+
+      <Helmet>
+        <title> Team </title>
+      </Helmet>
       {/* Navigation */}
       <Navigation> </Navigation>
 

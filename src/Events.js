@@ -1,4 +1,5 @@
 import './Events.css';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/animate.css/animate.css'
 import { ListGroup, ListGroupItem, Image, Tab, Tabs, Row, Col, Container, Card } from "react-bootstrap";
@@ -11,6 +12,10 @@ import { faClock, faCalendarAlt, faMapMarkerAlt } from '@fortawesome/free-solid-
 function Events() {
     return (
         <div className="home">
+
+            <Helmet>
+                <title> Events </title>
+            </Helmet>
             {/* Navigation bar */}
             <Navigation> </Navigation>
 
