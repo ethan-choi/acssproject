@@ -84,7 +84,7 @@ function galleryPage() {
                         <Col lg={{ span: 4, offset: 0 }} >
                             <Link to="/bbqGallery">
                                 <Card style={{ width: '60vh' }} className="galleryCard">
-                                    <div class="thumbnaillunar">
+                                    <div class="thumbnailbbq">
 
                                     </div>
                                     <Card.Body>

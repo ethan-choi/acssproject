@@ -37,7 +37,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10vh;  border: none;
+  margin-bottom: 5vh;  border: none;
   color: black;
   text-align: center;
 
@@ -94,6 +94,16 @@
 .thumbnailwelcome{
   height: 30vh;
   background-image: url("img/welcome/welcome3.JPG"); 
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.thumbnailbbq{
+  height: 30vh;
+  background-image: url("img/bbq/bbq1.JPG"); 
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
