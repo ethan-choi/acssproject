@@ -39,8 +39,8 @@ function Events() {
                 <p class="pageSubtitle"> All are welcome to join in on the fun.</p>
                 <Container fluid={true}>
                     <Row>
-                        <Col lg={{ span: 3, offset: 3 }}>
-                            <Card style={{ width: '21rem' }} className="eventCard">
+                        <Col lg={{ span: 3, offset: 3 }} md={{ span: 12, offset: 0 }}>
+                            <Card style={{ width: '26rem' }} className="eventCard">
                                 <div class="thumbnailoday">
                                 </div>
                                 <Card.Body>
@@ -61,8 +61,8 @@ function Events() {
                         </Col>
 
 
-                        <Col lg={{ span: 3, offset: 0 }}>
-                            <Card style={{ width: '21rem' }} className="eventCard">
+                        <Col lg={{ span: 3, offset: 0 }} md={{ span: 12, offset: 0 }}>
+                            <Card style={{ width: '26rem' }} className="eventCard">
                                 <div class="thumbnailoday">
                                 </div>
                                 <Card.Body>
@@ -84,8 +84,8 @@ function Events() {
                     </Row>
 
                     <Row>
-                        <Col lg={{ span: 3, offset: 3 }}>
-                            <Card style={{ width: '21rem' }} className="eventCard">
+                    <Col lg={{ span: 3, offset: 3 }} md={{ span: 12, offset: 0 }}>
+                            <Card style={{ width: '26rem' }} className="eventCard">
                                 <div class="thumbnailoday">
                                 </div>
                                 <Card.Body>
@@ -105,8 +105,8 @@ function Events() {
                         </Col>
 
 
-                        <Col lg={{ span: 3, offset: 0 }}>
-                            <Card style={{ width: '21rem' }} className="eventCard">
+                        <Col lg={{ span: 3, offset: 0 }} md={{ span: 12, offset: 0 }}>
+                            <Card style={{ width: '26rem' }} className="eventCard">
                                 <div class="thumbnailoday">
                                 </div>
                                 <Card.Body>

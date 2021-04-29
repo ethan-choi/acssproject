@@ -14,11 +14,11 @@
 .eventCard{
     border-style: none;
     border-radius: 5px;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 70vh;
+    height: 60vh;
 }
 
 .eventSubtext{
