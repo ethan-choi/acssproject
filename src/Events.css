@@ -12,13 +12,16 @@
 }
 
 .eventCard{
-    border-style: none;
-    border-radius: 5px;
-    margin-bottom: 5vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vh;
+  margin-bottom: 5vh;
+}
+
+.cardCol{
+  background-color: red;
+
 }
 
 .eventSubtext{
@@ -39,30 +42,3 @@
   }
 
  
-.eventCard button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-color: #dd3438;
-    border-radius: 25px;
-    border: none;
-    padding: 1vh;
-    color: white;
-    font-size: 2.5vh;
-    width: 20vh;
-  }
-  
-  .eventCard button:hover{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    background-color:white ;
-    color: black;
-    border-radius: 25px;
-    border: none;
-    padding: 1vh;
-    font-size: 2.5vh;
-    width: 30vh;
-  }
