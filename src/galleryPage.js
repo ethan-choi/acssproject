@@ -41,7 +41,19 @@ function galleryPage() {
             <div >
                 <Container fluid={true} className="galleryContainer">
                 <Row>
-          <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
+                <Col lg={{ span: 2, offset: 3 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "35vh" }} className="eventCard">
+                <Card.Img variant="top" src={image} />
+                <Card.Body>
+                  <Card.Title>Event Name</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          <Col lg={{ span: 2, offset: 5 }} md={{ span: 12, offset: 0 }}>
               <Card style={{ width: "40vh" }} className="eventCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
@@ -53,7 +65,7 @@ function galleryPage() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
+            <Col lg={{ span: 2, offset: 7 }} md={{ span: 12, offset: 0 }}>
               <Card style={{ width: "40vh" }} className="eventCard">
                 <Card.Img variant="top" src={image2} />
                 <Card.Body>

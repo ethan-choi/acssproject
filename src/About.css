@@ -9,7 +9,7 @@
   border-radius: 5px;
 }
 
-  .introContainer-col{
+.introContainer-col{
     font-size: 1vh;
     padding: 2vh;
     border-radius: 15px;
@@ -17,19 +17,18 @@
     text-align: justify;
     height: auto;
     margin-bottom: 2vh;
-  }
+}
 
-
-  .introContainer-row{
+.introContainer-row{
     background-color: red;
   }
-  
 
-  .introContainer p{
+
+.introContainer p{
     font-size: 2vh;
   }
 
-  .introContainer img{
+.introContainer img{
     height: 20vh;
     margin-bottom: 2vh;
     margin-left: auto;
@@ -42,12 +41,10 @@
   }
 
 /* Benefits */
-
-
-
 .benefitsContainer{
   margin-bottom: 10vh;
 }
+
 .benefitsImage{
   background-color: white;
   height: auto;
@@ -71,17 +68,10 @@ margin-left: auto;
   font-size: 2vh;
 }
 
-.benefitsContainer-row{
-
-}
-
 .whiteBenefits{
   margin:0;
-
-padding:0;
-
+  padding:0;
 }
-
 
 .benefitsContainer-col img{
   margin-bottom: 2vh;
@@ -98,7 +88,6 @@ padding:0;
 
 
 /* Ready */
-
 .readyContainer{
   background-color: #ffa800;
   padding-bottom: 20vh;

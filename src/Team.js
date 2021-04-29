@@ -30,7 +30,7 @@ function Team() {
       {/* Team  */}
 
 
-      <div class="teamGroupContainer">
+     {/* <div class="teamGroupContainer">
         <h3> Meet our ACSS team</h3>
         <Container fluid>
           <Row>
@@ -43,7 +43,7 @@ function Team() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <div class="team-container">
         <Container fluid={true}>
           <Row className="team-row" lg="auto">

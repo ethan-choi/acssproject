@@ -2,29 +2,13 @@ import "./Events.css";
 import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/animate.css/animate.css";
-import {
-  ListGroup,
-  ListGroupItem,
-  Image,
-  Tab,
-  Tabs,
-  Row,
-  Col,
-  Container,
-  Card,
-  Button
-} from "react-bootstrap";
+import {ListGroup, ListGroupItem, Image, Tab, Tabs, Row, Col, Container, Card, Button} from "react-bootstrap";
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js";
 import image from "./img/welcome/welcome1.JPG";
 import image2 from "./img/bbq/bbq1.JPG";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faClock,
-  faCalendarAlt,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import {faClock, faCalendarAlt, faMapMarkerAlt,} from "@fortawesome/free-solid-svg-icons";
 
 function Events() {
   return (
