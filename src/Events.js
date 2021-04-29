@@ -9,6 +9,7 @@ import image from "./img/welcome/welcome1.JPG";
 import image2 from "./img/bbq/bbq1.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faClock, faCalendarAlt, faMapMarkerAlt,} from "@fortawesome/free-solid-svg-icons";
+import eventImage from "./img/eventImage.jpeg";
 
 function Events() {
   return (
@@ -36,17 +37,14 @@ function Events() {
       <div class="eventsContainer">
         <h1> Come say hi </h1>
         <p class="pageSubtitle"> All are welcome to join in on the fun.</p>
-        <Container>
-          <Row>
-          <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
+        <Container fluid={true} className="eventsContainer">
+                <Row>
+                <Col lg={{ span: 4, offset: 0 }} className="eventsCol">
               <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={image} />
+                <Card.Img variant="top" src={eventImage} />
                 <Card.Body>
                   <Card.Title>Event Name</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
                   <Card.Text>
                   <ListGroup className="list-group-flush">
                         <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
@@ -54,19 +52,15 @@ function Events() {
                         <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
                 </ListGroup>
                   </Card.Text>
-                  <Button variant="primary">Find out more</Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
+          <Col lg={{ span: 4, offset: 0 }} className="eventsCol">
               <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={image2} />
+                <Card.Img variant="top" src={eventImage} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Title>Event Name</Card.Title>
                   <Card.Text>
                   <ListGroup className="list-group-flush">
                         <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
@@ -74,54 +68,26 @@ function Events() {
                         <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
                 </ListGroup>
                   </Card.Text>
-                  <Button variant="primary">Find out more</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={{ span: 4, offset: 0 }} className="eventsCol">
+              <Card style={{ width: "40vh" }} className="eventCard">
+                <Card.Img variant="top" src={eventImage} />
+                <Card.Body>
+                  <Card.Title>Event Name</Card.Title>
+                  <Card.Text>
+                  <ListGroup className="list-group-flush">
+                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
+                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faClock} /> 3pm - 4pm</ListGroupItem>
+                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
+                </ListGroup>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
-          <Row>
-          <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={image} />
-                <Card.Body>
-                  <Card.Title>Event Name</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Card.Text>
-                  <ListGroup className="list-group-flush">
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faClock} /> 3pm - 4pm</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
-                </ListGroup>
-                  </Card.Text>
-                  <Button variant="primary">Find out more</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={image2} />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Card.Text>
-                  <ListGroup className="list-group-flush">
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faClock} /> 3pm - 4pm</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
-                </ListGroup>
-                  </Card.Text>
-                  <Button variant="primary">Find out more</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
+                </Container>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

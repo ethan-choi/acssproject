@@ -6,8 +6,11 @@ import { Row, Col, Container, Card,   ListGroup, ListGroupItem, } from "react-bo
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js"
 import { Link } from "react-router-dom";
-import image from "./img/welcome/welcome1.JPG";
-import image2 from "./img/bbq/bbq1.JPG";
+import odaythumbnail from "./img/oday/oday1.JPG"
+import lunarthumbnail from "./img/lunarMarkets/lunar1.jpg";
+import welcomethumbnail from "./img/welcome/welcome1.JPG";
+import bbqthumbnail from "./img/bbq/bbq1.JPG";
+
 function galleryPage() {
 
 
@@ -41,39 +44,37 @@ function galleryPage() {
             <div >
                 <Container fluid={true} className="galleryContainer">
                 <Row>
-                <Col lg={{ span: 2, offset: 3 }} md={{ span: 12, offset: 0 }}>
-              <Card style={{ width: "35vh" }} className="eventCard">
-                <Card.Img variant="top" src={image} />
+                <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="galleryCard">
+                <Card.Img variant="top" src={odaythumbnail} />
                 <Card.Body>
-                  <Card.Title>Event Name</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Title>O'Day 2021</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
-          <Col lg={{ span: 2, offset: 5 }} md={{ span: 12, offset: 0 }}>
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={image} />
+          <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="galleryCard">
+                <Card.Img variant="top" src={welcomethumbnail} />
                 <Card.Body>
-                  <Card.Title>Event Name</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Title>Welcome Picnic</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={{ span: 2, offset: 7 }} md={{ span: 12, offset: 0 }}>
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={image2} />
+            <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="galleryCard">
+                <Card.Img variant="top" src={lunarthumbnail} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Title>Lunar Markets</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+          <Row>
+          <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="galleryCard">
+                <Card.Img variant="top" src={bbqthumbnail} />
+                <Card.Body>
+                  <Card.Title>BBQ</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
