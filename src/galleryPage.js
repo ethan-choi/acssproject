@@ -2,10 +2,12 @@ import './galleryPage.css';
 import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/animate.css/animate.css'
-import { Row, Col, Container, Card } from "react-bootstrap";
+import { Row, Col, Container, Card,   ListGroup, ListGroupItem, } from "react-bootstrap";
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js"
 import { Link } from "react-router-dom";
+import image from "./img/welcome/welcome1.JPG";
+import image2 from "./img/bbq/bbq1.JPG";
 function galleryPage() {
 
 
@@ -38,62 +40,32 @@ function galleryPage() {
             {/* Gallery */}
             <div >
                 <Container fluid={true} className="galleryContainer">
-                    <Row>
-                        <Col>
-                            <h1> Check out pics from our past events </h1>
-                        </Col>
-                    </Row>
-                    <Row >
-                        <Col lg={{ span: 4, offset: 2 }} >
-                            <Link to="/odayGallery">
-                                <Card style={{ width: '60vh' }} className="galleryCard">
-                                    <div class="thumbnailoday">
-                                    </div>
-                                    <Card.Body>
-                                        <h2> O'day Clubs Expo </h2>
-                                    </Card.Body>
-                                </Card>
-                            </Link>
-                        </Col>
-                        <Col lg={{ span: 4, offset: 0 }} >
-                            <Link to="/lunarGallery">
-                                <Card style={{ width: '60vh' }} className="galleryCard">
-                                    <div class="thumbnaillunar">
-
-                                    </div>
-                                    <Card.Body>
-                                        <h2> Lunar Markets </h2>
-                                    </Card.Body>
-                                </Card>
-                            </Link>
-                        </Col>
-                    </Row>
-                    <Row >
-                        <Col lg={{ span: 4, offset: 2 }} >
-                            <Link to="/welcomeGallery">
-                                <Card style={{ width: '60vh' }} className="galleryCard">
-                                    <div class="thumbnailwelcome">
-
-                                    </div>
-                                    <Card.Body>
-                                        <h2> Welcome Day </h2>
-                                    </Card.Body>
-                                </Card>
-                            </Link>
-                        </Col>
-                        <Col lg={{ span: 4, offset: 0 }} >
-                            <Link to="/bbqGallery">
-                                <Card style={{ width: '60vh' }} className="galleryCard">
-                                    <div class="thumbnailbbq">
-
-                                    </div>
-                                    <Card.Body>
-                                        <h2> Chinese BBQ Night </h2>
-                                    </Card.Body>
-                                </Card>
-                            </Link>
-                        </Col>
-                    </Row>
+                <Row>
+          <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "40vh" }} className="eventCard">
+                <Card.Img variant="top" src={image} />
+                <Card.Body>
+                  <Card.Title>Event Name</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={{ span: 6, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "40vh" }} className="eventCard">
+                <Card.Img variant="top" src={image2} />
+                <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
                 </Container>
             </div>
 
