@@ -10,21 +10,13 @@
   background-color: #dd3438;
   height: 100vh;
   padding-bottom: 10vh;
-  background-image: url("img/group.JPG"); 
+  background-image: url("img/groupdark.JPG"); 
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
-/*
-.coverContainer{
-  background-color: #dd3438;
-  height: auto;
-  padding-bottom: 10vh;
-
-}*/
 
 
 .coverContainer h3 {
@@ -57,49 +49,6 @@
   padding: 1vh;
   font-size: 2.5vh;
   width: 25vh;
-}
-
-
-/* Announcements */
-
-.announcementsContainer{
-  margin-bottom: 10vh;
-}
-.announcementsContainer h1{
-  font-size: 5vh;
-  margin: 10vh 0vh 3vh 0vh;
-  text-align: center;
-  color: #ffa800; 
-  font-weight: bold;
-}
-
-.tabs{
-  border-style: none;
-  font-size: 3vh;
-}
-
-.singletab{
-  background-color: white;
-  border-radius: 0px 0px 25px 25px  ;
-  padding: 3vh;
-  border-style: none;
-}
-
-.li {
-  list-style-type: none;
-}
-
-.announcements .nav-link{
-  font-size: 3vh;
-  border-radius: 25px 25px  0px 0px;
-  border-style: none;
-}
-.announcements .nav-link.active {
-  background-color: white !important;
-}
-
-.announcements p {
-  font-size: 2vh;
 }
 
 

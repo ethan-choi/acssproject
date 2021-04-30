@@ -26,3 +26,8 @@ display: block;
   color: white;
   transition: 0.4s;
 }
+
+
+.lunarMarketImage{
+  object-fit: cover;
+}
