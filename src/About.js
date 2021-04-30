@@ -64,9 +64,7 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
 
       {/* Benefits */}
       <div class="benefitsContainer">
-
         <Container fluid={true}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L34.3,186.7C68.6,181,137,171,206,186.7C274.3,203,343,245,411,261.3C480,277,549,267,617,256C685.7,245,754,235,823,240C891.4,245,960,267,1029,240C1097.1,213,1166,139,1234,117.3C1302.9,96,1371,128,1406,144L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
           <div class="whiteBenefits">
             <Row className="benefitsContainer-row">
               <Col lg={{ span: 4, offset: 2 }}>
@@ -83,7 +81,6 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
               </Col>
             </Row>
           </div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,224L34.3,197.3C68.6,171,137,117,206,122.7C274.3,128,343,192,411,218.7C480,245,549,235,617,224C685.7,213,754,203,823,176C891.4,149,960,107,1029,101.3C1097.1,96,1166,128,1234,149.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
 
 
           <Row className="benefitsContainer-row">
@@ -101,7 +98,6 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
             </Col>
           </Row>
 
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L34.3,186.7C68.6,181,137,171,206,186.7C274.3,203,343,245,411,261.3C480,277,549,267,617,256C685.7,245,754,235,823,240C891.4,245,960,267,1029,240C1097.1,213,1166,139,1234,117.3C1302.9,96,1371,128,1406,144L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
           <div class="whiteBenefits">
             <Row className="benefitsContainer-row">
               <Col lg={{ span: 4, offset: 2 }}>
@@ -117,8 +113,8 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
                 </div>
               </Col>
             </Row>
+
           </div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,224L34.3,197.3C68.6,171,137,117,206,122.7C274.3,128,343,192,411,218.7C480,245,549,235,617,224C685.7,213,754,203,823,176C891.4,149,960,107,1029,101.3C1097.1,96,1166,128,1234,149.3C1302.9,171,1371,181,1406,186.7L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
           <Row className="benefitsContainer-row">
             <Col lg={{ span: 4, offset: 2, order: 1 }} xs={{ span: 12, order: 12 }}>
               <div class="">
@@ -138,7 +134,6 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
 
 
       {/* Ready to Join */}
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffa800" fill-opacity="1" d="M0,96L34.3,90.7C68.6,85,137,75,206,58.7C274.3,43,343,21,411,16C480,11,549,21,617,48C685.7,75,754,117,823,133.3C891.4,149,960,139,1029,133.3C1097.1,128,1166,128,1234,128C1302.9,128,1371,128,1406,128L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
       <div class="readyContainer">
         <Row>
           <Col>

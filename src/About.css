@@ -9,21 +9,6 @@
   border-radius: 5px;
 }
 
-.introContainer-col{
-    font-size: 1vh;
-    padding: 2vh;
-    border-radius: 15px;
-    background-color: white;
-    text-align: justify;
-    height: auto;
-    margin-bottom: 2vh;
-}
-
-.introContainer-row{
-    background-color: red;
-  }
-
-
 .introContainer p{
     font-size: 2vh;
   }
@@ -42,21 +27,21 @@
 
 /* Benefits */
 .benefitsContainer{
-  margin-bottom: 10vh;
+  margin: 10vh 0vh 10vh 0vh;
 }
 
 .benefitsImage{
   background-color: white;
   height: auto;
   -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.25);
--moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.25);
-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.25);
-display: block;
-margin-left: auto;
+  -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.25);
+  box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.25);
+  display: block;
+  margin-left: auto;
 }
 
-.benefitsText{
-  padding: 5vh;
+.benefitsContainer-row{
+  padding: 10vh 0vh 10vh 0vh;
 }
 
 .benefitsText h2{
@@ -70,16 +55,11 @@ margin-left: auto;
 
 .whiteBenefits{
   margin:0;
+  background-color: white;
   padding:0;
 }
 
-.benefitsContainer-col img{
-  margin-bottom: 2vh;
-  height: 6vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .benefitsIcon{
   height: 7vh;
