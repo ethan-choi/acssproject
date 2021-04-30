@@ -62,13 +62,14 @@ function galleryPage() {
             </Col>
             <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
               <Card style={{ width: "" }} className="galleryCard">
-                <Card.Img variant="top" src={lunarthumbnail} />
+                <Card.Img variant="top" src={bbqthumbnail} />
                 <Card.Body>
                   <Card.Title>Lunar Markets</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
+          
           <Row>
           <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
               <Card style={{ width: "" }} className="galleryCard">

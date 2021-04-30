@@ -1,11 +1,10 @@
 import './Team.css';
 import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Row, Col, Container, Card, Image } from "react-bootstrap";
+import { Row, Col, Container, Card } from "react-bootstrap";
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js"
 import image from './img/avatar.png';
-import teamGroup from './img/teamgroup.JPG';
 function Team() {
   return (
     <div className="team">
@@ -28,27 +27,11 @@ function Team() {
       </div>
 
       {/* Team  */}
-
-
-     {/* <div class="teamGroupContainer">
-        <h3> Meet our ACSS team</h3>
-        <Container fluid>
-          <Row>
-            <Col lg={{ span: 6, offset: 3 }}>
-              <Image src={teamGroup} className="teamGroupImage" fluid />
-            </Col>
-          </Row>
-          <Row>
-            <Col lg={{ span: 6, offset: 3 }}>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
       <div class="team-container">
         <Container fluid={true}>
           <Row className="team-row" lg="auto">
             <Col lg={{ span: 2, offset: 2 }} md={{ span: 12 }} sm={{ span: 12, offset: 0 }} className="teamCol">
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Steven Lee </h2></Card.Title>
@@ -59,7 +42,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Rachel Xu </h2> </Card.Title>
@@ -70,7 +53,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title> <h2> Lewis Smith </h2> </Card.Title>
@@ -81,7 +64,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2, offset: 0 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Steven Pang </h2> </Card.Title>
@@ -95,7 +78,7 @@ function Team() {
 
           <Row className="team-row" lg="auto" >
             <Col lg={{ span: 2, offset: 2 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Steven Pang </h2> </Card.Title>
@@ -106,7 +89,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Tayla Cheng </h2>
@@ -118,7 +101,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Jessie Rentong </h2> </Card.Title>
@@ -129,7 +112,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2, offset: 0 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Annie Qi </h2>  </Card.Title>
@@ -143,7 +126,7 @@ function Team() {
 
           <Row className="team-row" lg="auto">
             <Col lg={{ span: 2, offset: 4 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Oliver Wen </h2> </Card.Title>
@@ -154,7 +137,7 @@ function Team() {
               </Card>
             </Col>
             <Col lg={{ span: 2 }} sm={{ span: 12, offset: 0 }}>
-              <Card style={{ width: '28vh' }} className="teamCard">
+              <Card style={{ width: '' }} className="teamCard">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                   <Card.Title><h2> Ethan Choi </h2> </Card.Title>

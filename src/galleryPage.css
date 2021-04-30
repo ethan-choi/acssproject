@@ -8,33 +8,11 @@
 }
 
 /* Gallery */
-.galleryHeader{
-    background-color: #dd3438;
-    height: 40vh;
-    font-size: 7vh;
-  }
-  
-.galleryHeader h1{
-    margin: 20vh 0vh 5vh 0vh;
-    font-size: 6vh;
-    text-align: center;
-    color: #ffa800; 
-    font-weight: bold;
-  
-  }
-
-.galleryContainer img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-  }
-
 .galleryContainer{
   margin: 10vh 0vh 10vh 0vh;
 }
-.galleryCard
-{
-  display: block;
+.galleryCard {
+display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vh;  border: none;
@@ -47,66 +25,4 @@
   background-color: #dd3438;
   color: white;
   transition: 0.4s;
-}
-
-.galleryCard h2{
-  font-size: 3vh;
-}
-
-
-
-
-.galleryImage{
-  height: 50vh;
-  margin-bottom: 3vh;
-}
-
-
-.galleryCol{
-  margin-bottom: 1vh;
-}
-
-.galleryRow p{
-  text-align: center;
-  font-size: 6vh;
-}
-
-.thumbnailoday{
-  height: 30vh;
-  background-image: url("img/oday/oday1.JPG"); 
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.thumbnaillunar{
-  height: 30vh;
-  background-image: url("img/lunarMarkets/lunar3.jpg"); 
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.thumbnailwelcome{
-  height: 30vh;
-  background-image: url("img/welcome/welcome3.JPG"); 
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.thumbnailbbq{
-  height: 30vh;
-  background-image: url("img/bbq/bbq1.JPG"); 
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }

@@ -97,7 +97,6 @@ From students that have tasted the exquisite Chinese cuisine, to students that w
                 <Image className="benefitsIcon" src={icon2} fluid />
                 <h2> Learn Mandarin </h2>
                 <p> Want to learn mandarin? We'll be hosting language workshops throughout the year! </p>
-
               </div>
             </Col>
           </Row>

@@ -1,45 +1,15 @@
-.eventsContainer{
-}
-.teamHeader{
-    
-}
-.eventsText{
-    background-color: red;
-}
 
-.eventsImage{
-    background-color: blue;
-}
-
-.eventCard{
+.eventCard {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60vh;
-  margin-bottom: 5vh;
+  margin-bottom: 5vh;  border: none;
+  color: black;
+  text-align: left;
 }
 
-.cardCol{
-  background-color: red;
-
+.eventCardDetails{
+  line-height: 0;
 }
 
 
-.eventSubtext{
-    color: grey;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-style: none;
-}
-
-.thumbnailoday{
-    height: 30vh;
-    background-image: url("img/oday/oday1.JPG"); 
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
- 

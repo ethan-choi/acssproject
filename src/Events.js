@@ -2,14 +2,24 @@ import "./Events.css";
 import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/animate.css/animate.css";
-import {ListGroup, ListGroupItem, Image, Tab, Tabs, Row, Col, Container, Card, Button} from "react-bootstrap";
+import {
+  Row,
+  Col,
+  Container,
+  Card,
+  Button,
+} from "react-bootstrap";
 import Navigation from "./Navbar.js";
 import Footer from "./footer.js";
-import image from "./img/welcome/welcome1.JPG";
-import image2 from "./img/bbq/bbq1.JPG";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faClock, faCalendarAlt, faMapMarkerAlt,} from "@fortawesome/free-solid-svg-icons";
+import {
+  faClock,
+  faCalendarAlt,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import eventImage from "./img/eventImage.jpeg";
+
 
 function Events() {
   return (
@@ -38,56 +48,56 @@ function Events() {
         <h1> Come say hi </h1>
         <p class="pageSubtitle"> All are welcome to join in on the fun.</p>
         <Container fluid={true} className="eventsContainer">
-                <Row>
-                <Col lg={{ span: 4, offset: 0 }} className="eventsCol">
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={eventImage} />
+          <Row>
+          <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="eventCard">
+                <Card.Img variant="top" src={eventImage}/>
                 <Card.Body>
-                  <Card.Title>Event Name</Card.Title>
-                  <Card.Text>
-                  <Card.Text>
-                  <ListGroup className="list-group-flush">
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faClock} /> 3pm - 4pm</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
-                </ListGroup>
-                  </Card.Text>
-                  </Card.Text>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text className="eventCardDescription"> Did someone say food? Count us in! We are excited to announce the 
+                  ultimate collab that you’ve been waiting for: ACSS X FOOD SOC. 
+                  Come visit us for pork buns, dim sims and more! Vegetarian options are also available  </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021 </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faClock} /> 12-3pm </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faMapMarkerAlt} /> Building 1, Concourse </Card.Text>
+                  <Button variant="primary">Learn More</Button>
                 </Card.Body>
               </Card>
             </Col>
-          <Col lg={{ span: 4, offset: 0 }} className="eventsCol">
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={eventImage} />
+
+          <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="eventCard">
+                <Card.Img variant="top" src={eventImage}/>
                 <Card.Body>
-                  <Card.Title>Event Name</Card.Title>
-                  <Card.Text>
-                  <ListGroup className="list-group-flush">
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faClock} /> 3pm - 4pm</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
-                </ListGroup>
-                  </Card.Text>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text className="eventCardDescription"> Did someone say food? Count us in! We are excited to announce the 
+                  ultimate collab that you’ve been waiting for: ACSS X FOOD SOC. 
+                  Come visit us for pork buns, dim sims and more! Vegetarian options are also available  </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021 </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faClock} /> 12-3pm </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faMapMarkerAlt} /> Building 1, Concourse </Card.Text>
+                  <Button variant="primary">Learn More</Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={{ span: 4, offset: 0 }} className="eventsCol">
-              <Card style={{ width: "40vh" }} className="eventCard">
-                <Card.Img variant="top" src={eventImage} />
+
+            <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <Card style={{ width: "" }} className="eventCard">
+                <Card.Img variant="top" src={eventImage}/>
                 <Card.Body>
-                  <Card.Title>Event Name</Card.Title>
-                  <Card.Text>
-                  <ListGroup className="list-group-flush">
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faClock} /> 3pm - 4pm</ListGroupItem>
-                        <ListGroupItem className="eventSubtext"> <FontAwesomeIcon icon={faMapMarkerAlt} />    UTS CB11.06.107 </ListGroupItem>
-                </ListGroup>
-                  </Card.Text>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text className="eventCardDescription"> Did someone say food? Count us in! We are excited to announce the 
+                  ultimate collab that you’ve been waiting for: ACSS X FOOD SOC. 
+                  Come visit us for pork buns, dim sims and more! Vegetarian options are also available  </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faCalendarAlt} /> 5th May 2021 </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faClock} /> 12-3pm </Card.Text>
+                  <Card.Text className="eventCardDetails"><FontAwesomeIcon icon={faMapMarkerAlt} /> Building 1, Concourse </Card.Text>
+                  <Button variant="primary">Learn More</Button>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
-                </Container>
+        </Container>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
