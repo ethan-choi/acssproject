@@ -34,7 +34,7 @@ function Join() {
 
             {/* Join Steps */}
             <div class="joinContainer">
-                <h3> Join our family in four easy steps</h3>
+                <h3> Join us in four easy steps</h3>
                 <Container fluid={true}>
                     <Row>
                         <Col lg={{ span: 2, offset: 2 }}>

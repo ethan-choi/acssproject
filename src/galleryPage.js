@@ -16,18 +16,11 @@ function galleryPage() {
 
     return (
         <div className="galleryPage">
-
-
-
             <Helmet>
                 <title> Gallery </title>
             </Helmet>
-
-
             {/* Navigation */}
             <Navigation> </Navigation>
-
-
             {/* Header */}
             <div class="headerContainer">
                 <Container fluid={true} className="teamHeader">
@@ -44,40 +37,48 @@ function galleryPage() {
             <div >
                 <Container fluid={true} className="galleryContainer">
                 <Row>
-                <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+            <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <a href="https://drive.google.com/drive/u/2/folders/1--CdvnXP9GjIpZtHcamw7_aZpuyqzUui" target="_blank">
               <Card style={{ width: "" }} className="galleryCard">
                 <Card.Img variant="top" src={odaythumbnail} />
                 <Card.Body>
                   <Card.Title>O'Day 2021</Card.Title>
                 </Card.Body>
               </Card>
+              </a>
             </Col>
           <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <a href="https://drive.google.com/drive/u/2/folders/1-28YTI9pMH8q8R7IO2NtXdAzeHY8HG2O" target="_blank">
               <Card style={{ width: "" }} className="galleryCard">
                 <Card.Img variant="top" src={welcomethumbnail} />
                 <Card.Body>
                   <Card.Title>Welcome Picnic</Card.Title>
                 </Card.Body>
               </Card>
+              </a>
             </Col>
             <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+            <a href="https://drive.google.com/drive/u/2/folders/1HxryM-vYv5a1PsD2qm8knzizAJqRH3wU" target="_blank">
               <Card style={{ width: "" }} className="galleryCard">
                 <Card.Img variant="top" src={lunarthumbnail} className="lunarMarketImage" />
                 <Card.Body>
                   <Card.Title>Lunar Markets</Card.Title>
                 </Card.Body>
               </Card>
+            </a>
             </Col>
           </Row>
 
           <Row>
           <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>
+              <a href="https://drive.google.com/drive/u/2/folders/1H9dDTbR03FyDKKS2NCLQgSWa-lDvcs_j" target="_blank">
               <Card style={{ width: "" }} className="galleryCard">
                 <Card.Img variant="top" src={bbqthumbnail} />
                 <Card.Body>
                   <Card.Title>BBQ</Card.Title>
                 </Card.Body>
               </Card>
+              </a>
             </Col>
           </Row>
                 </Container>

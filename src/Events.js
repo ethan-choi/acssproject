@@ -46,7 +46,7 @@ function Events() {
 
       <div class="eventsContainer">
         <h1> Come say hi </h1>
-        <p class="pageSubtitle"> All are welcome to join in on the fun.</p>
+        <p class="pageSubtitle"> All are welcome</p>
         <Container fluid={true} className="eventsContainer">
           <Row>
           <Col lg={{ span: 4, offset: 0 }} md={{ span: 12, offset: 0 }}>

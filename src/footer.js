@@ -24,7 +24,7 @@ function Footer() {
                         <Col lg={{ span: 12, offset: 0 }} >
                             <a href="https://www.facebook.com/uts.acss" target="_blank">  <Image className="socialmedia hvr-grow" src={facebook} rounded /> </a>
                             <a href="https://www.instagram.com/uts.acss/" target="_blank">  <Image className="socialmedia hvr-grow" src={instagram} rounded /> </a>
-                            <a href="https://discord.gg/ynTgEGYyCZ/" target="_blank">  <Image className="socialmedia hvr-grow" src={discord} rounded /> </a>
+                            <a href="https://discord.gg/9GBCqu9A" target="_blank">  <Image className="socialmedia hvr-grow" src={discord} rounded /> </a>
                         </Col>
                     </Row>
                     <Row>
